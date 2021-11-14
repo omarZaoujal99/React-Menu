@@ -1,0 +1,13 @@
+{
+    "short_name":"FFResturant",
+    "name":"Fast Food Resturant",
+    "icons": [
+        {
+            "src": "./images/logo.png",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#ffc258",
+    "description": "Fast food returatn site web"
+}
