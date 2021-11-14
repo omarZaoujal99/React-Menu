@@ -2,7 +2,7 @@ const meals = [
     {
         name:"Ananas juice",
         price:"20Dhs",
-        image:"../public/images/ananasJuice.jpg",
+        image:"./images/ananasJuice.jpg",
         mealTime:"all"
     },
     {
