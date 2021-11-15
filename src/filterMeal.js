@@ -9,7 +9,7 @@ class All extends React.Component{
                 return (
                     <div className="mealCard" key={i}>
                         <div className="divImgMeal">
-                            <img src={v.image} alt={v.name} />
+                            <img src={process.env.PUBLIC_URL+v.image} alt={v.name} />
                         </div>
                         <div className="divInfosMeal">
                             <div className="d2IM">
@@ -30,7 +30,7 @@ class Breakfast extends React.Component{
     render(){
         return(
             meals.map((v,i)=>{
-                if(v.mealTime.indexOf("breakfast") != -1 || v.mealTime == "all"){
+                if(v.mealTime.indexOf("breakfast") !== -1 || v.mealTime === "all"){
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">
@@ -57,7 +57,7 @@ class Lunch extends React.Component{
     render(){
         return(
             meals.map((v,i)=>{
-                if(v.mealTime.indexOf("lunch") != -1 || v.mealTime.indexOf("lunchAndDinner") != -1 || v.mealTime == "all"){
+                if(v.mealTime.indexOf("lunch") !== -1 || v.mealTime.indexOf("lunchAndDinner") !== -1 || v.mealTime === "all"){
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">
@@ -84,7 +84,7 @@ class Dinner extends React.Component{
     render(){
         return(
             meals.map((v,i)=>{
-                if(v.mealTime.indexOf("dinner") != -1 || v.mealTime.indexOf("lunchAndDinner") != -1 || v.mealTime == "all"){
+                if(v.mealTime.indexOf("dinner") !== -1 || v.mealTime.indexOf("lunchAndDinner") !== -1 || v.mealTime === "all"){
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">

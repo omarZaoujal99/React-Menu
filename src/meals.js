@@ -2,175 +2,175 @@ const meals = [
     {
         name:"Ananas juice",
         price:"20Dhs",
-        image:"./images/ananasJuice.jpg",
+        image:"/images/ananasJuice.jpg",
         mealTime:"all"
     },
     {
         name:"Avocado juice",
         price:"20Dhs",
-        image:"../public/images/avocadoJuice.jpg",
+        image:"/images/avocadoJuice.jpg",
         mealTime:"all"
     },
     {
         name:"Bagherir",
         price:"3Dhs",
-        image:"../public/images/bagherir.jpg",
+        image:"/images/bagherir.jpg",
         mealTime:"breakfast"
     },
     {
         name:"Barbecue tacos",
         price:"35Dhs",
-        image:"../public/images/barbecueTacos.jpg",
+        image:"/images/barbecueTacos.jpg",
         mealTime:"lunchAndDinner"
     },
         {
         name:"Boiled egg",
         price:"2Dhs",
-        image:"../public/images/boiledEgg.jpg",
+        image:"/images/boiledEgg.jpg",
         mealTime:"all"
     },
     {
         name:"Broccoli Pasta",
         price:"25Dhs",
-        image:"../public/images/broccoliPasta.jpg",
+        image:"/images/broccoliPasta.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Caramel Flan",
         price:"6Dhs",
-        image:"../public/images/caramelFlan.jpeg",
+        image:"/images/caramelFlan.jpeg",
         mealTime:"all"
     },
     {
         name:"Cheese burger",
         price:"25Dhs",
-        image:"../public/images/cheeseBurger.jpg",
+        image:"/images/cheeseBurger.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Cheese nuggets",
         price:"20Dhs/5Ps",
-        image:"../public/images/cheeseNuggets.jpg",
+        image:"/images/cheeseNuggets.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Chicken burger",
         price:"25Dhs",
-        image:"../public/images/chickenBurger.jpg",
+        image:"/images/chickenBurger.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Chicken nuggets",
         price:"20Dhs/5Ps",
-        image:"../public/images/chickenNuggets.jpg",
+        image:"/images/chickenNuggets.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Chicken pizza",
         price:"35Dhs",
-        image:"../public/images/chickenPizza.jpg",
+        image:"/images/chickenPizza.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Chicken tacos",
         price:"30Dhs",
-        image:"../public/images/chickenTacos.jpg",
+        image:"/images/chickenTacos.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Coffee",
         price:"12Dhs",
-        image:"../public/images/coffee.png",
+        image:"/images/coffee.png",
         mealTime:"all"
     },
     {
         name:"Milk",
         price:"8Dhs",
-        image:"../public/images/cupOfMilk.jpeg",
+        image:"/images/cupOfMilk.jpeg",
         mealTime:"breakfast"
     },
     {
         name:"Fish soup",
         price:"20Dhs",
-        image:"../public/images/fishSoup.jpg",
+        image:"/images/fishSoup.jpg",
         mealTime:"dinner"
     },
     {
         name:"Frensh fried",
         price:"7Dhs",
-        image:"../public/images/frenshFried.jpeg",
+        image:"/images/frenshFried.jpeg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Fried egg",
         price:"5Dhs",
-        image:"../public/images/friedEgg.jpg",
+        image:"/images/friedEgg.jpg",
         mealTime:"breakfast"
     },
     {
         name:"Margherita",
         price:"25Dhs",
-        image:"../public/images/margherita.jpg",
+        image:"/images/margherita.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Moroccan soup",
         price:"10Dhs",
-        image:"../public/images/moroccanSoup.jpg",
+        image:"/images/moroccanSoup.jpg",
         mealTime:"dinner"
     },
     {
         name:"Olive",
         price:"2Dhs",
-        image:"../public/images/olive.jpg",
+        image:"/images/olive.jpg",
         mealTime:"breakfast"
     },
     {
         name:"Olive oil",
         price:"5Dhs",
-        image:"../public/images/oliveOil.jpg",
+        image:"/images/oliveOil.jpg",
         mealTime:"breakfast"
     },
     {
         name:"Orange juice",
         price:"15Dhs",
-        image:"../public/images/orangeJuice.jpg",
+        image:"/images/orangeJuice.jpg",
         mealTime:"all"
     },
     {
         name:"Shirmp pasta",
         price:"30Dhs",
-        image:"../public/images/shirmpPasta.jpg",
+        image:"/images/shirmpPasta.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Soda",
         price:"12Dhs/33Cl",
-        image:"../public/images/soda.jpg",
+        image:"/images/soda.jpg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Spicy Chicken Nuggets",
         price:"20Dhs/5Ps",
-        image:"../public/images/spicyChickenNuggets.jpeg",
+        image:"/images/spicyChickenNuggets.jpeg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"Tea",
         price:"10Dhs",
-        image:"../public/images/tea.jpg",
+        image:"/images/tea.jpg",
         mealTime:"all"
     },
     {
         name:"Thon pizza",
         price:"35Dhs",
-        image:"../public/images/thonPizza.jpeg",
+        image:"/images/thonPizza.jpeg",
         mealTime:"lunchAndDinner"
     },
     {
         name:"White sauce pasta",
         price:"20dhs",
-        image:"../public/images/whiteSaucePasta.jpg",
+        image:"/images/whiteSaucePasta.jpg",
         mealTime:"lunchAndDinner"
     }
 ]
