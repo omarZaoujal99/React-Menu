@@ -34,7 +34,7 @@ class Breakfast extends React.Component{
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">
-                                <img src={v.image} alt={v.name} />
+                                <img src={process.env.PUBLIC_URL+v.image} alt={v.name} />
                             </div>
                             <div className="divInfosMeal">
                                 <div className="d2IM">
@@ -61,7 +61,7 @@ class Lunch extends React.Component{
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">
-                                <img src={v.image} alt={v.name} />
+                                <img src={process.env.PUBLIC_URL+v.image} alt={v.name} />
                             </div>
                             <div className="divInfosMeal">
                                 <div className="d2IM">
@@ -88,7 +88,7 @@ class Dinner extends React.Component{
                     return(
                         <div className="mealCard" key={i}>
                             <div className="divImgMeal">
-                                <img src={v.image} alt={v.name} />
+                                <img src={process.env.PUBLIC_URL+v.image} alt={v.name} />
                             </div>
                             <div className="divInfosMeal">
                                 <div className="d2IM">
