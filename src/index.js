@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import imgs from "/images/ananasJuice.jpg";
+// console.log(imgs);
 
 // importing filter component from filterMeal.js
 import { All, Breakfast, Lunch, Dinner } from "./filterMeal";
